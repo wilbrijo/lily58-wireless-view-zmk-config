@@ -45,10 +45,8 @@
 &kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                              &kp F7     &kp F8             &kp F9           &kp F10           &kp F11            &kp BACKSLASH
 &kp GRAVE   &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                           &kp CARET  &kp AMPS           &kp KP_MULTIPLY  &kp LPAR          &kp RPAR           &kp TILDE
 &trans      &trans        &trans        &trans        &trans        &trans        &trans    &kp K_MUTE  &trans     &kp MINUS          &kp KP_PLUS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE
-                                        &trans        &trans        &trans        &trans    &trans      &trans     &kt K_VOLUME_DOWN  &kp K_VOLUME_UP
+                                        &trans        &trans        &trans        &trans    &trans      &trans     &kt C_VOLUME_DOWN  &kp C_VOLUME_UP
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         raise_layer {
@@ -67,8 +65,6 @@
 &kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp PAGE_DOWN    &kp PAGE_UP          &kp KP_PLUS  &kp MINUS          &kp EQUAL         &kp LBKT   &kp RBKT  &kp BSLH
                            &trans   &trans   &trans   &trans           &mt RIGHT_ALT SPACE  &trans       &kp C_AC_ZOOM_OUT  &kp C_AC_ZOOM_IN
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_3 {
