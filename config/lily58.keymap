@@ -14,7 +14,7 @@
         ht_bal: ht_bal {
             compatible = "zmk,behavior-hold-tap";
             label = "Hold-tap: balanced";
-            bindings = <&none>, <&none>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             flavor = "balanced";
@@ -24,7 +24,7 @@
         ht_tap: ht_tap {
             compatible = "zmk,behavior-hold-tap";
             label = "Hold-tap: Tap";
-            bindings = <&none>, <&none>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <250>;
@@ -45,11 +45,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC    &kp N1            &kp N2       &kp N3          &kp N4        &kp N5                           &kp N6   &kp N7               &kp N8           &kp N9       &kp N0                     &kp BACKSPACE
-&kp TAB    &kp Q             &kp W        &kp E           &kp R         &kp T                            &kp Y    &kp U                &kp I            &kp O        &kp P                      &kp MINUS
-&kp LCTRL  &mt LEFT_SHIFT A  &mt LCTRL S  &mt LEFT_ALT D  &mt LCMD F    &lt 3 G                          &lt 4 H  &mt RIGHT_COMMAND J  &mt RIGHT_ALT K  &mt RCTRL L  &mt RIGHT_SHIFT SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z             &kp X        &kp C           &kp V         &kp B    &kp LBKT     &kp RBKT   &kp N    &kp M                &kp COMMA        &kp DOT      &kp FSLH                   &mt RIGHT_SHIFT GRAVE
-                                          &kp LALT        &kp LEFT_GUI  &mo 1    &lt 5 RET    &kp SPACE  &mo 2    &kp MINUS            &kp EQUAL
+&kp ESC    &kp N1                &kp N2           &kp N3              &kp N4          &kp N5                           &kp N6   &kp N7                   &kp N8               &kp N9           &kp N0                         &kp BACKSPACE
+&kp TAB    &kp Q                 &kp W            &kp E               &kp R           &kp T                            &kp Y    &kp U                    &kp I                &kp O            &kp P                          &kp MINUS
+&kp LCTRL  &ht_bal LEFT_SHIFT A  &ht_bal LCTRL S  &ht_bal LEFT_ALT D  &ht_bal LCMD F  &lt 3 G                          &lt 4 H  &ht_bal RIGHT_COMMAND J  &ht_bal RIGHT_ALT K  &ht_bal RCTRL L  &ht_bal RIGHT_SHIFT SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z                 &kp X            &kp C               &kp V           &kp B    &kp LBKT     &kp RBKT   &kp N    &kp M                    &kp COMMA            &kp DOT          &kp FSLH                       &mt RIGHT_SHIFT GRAVE
+                                                  &kp LALT            &kp LEFT_GUI    &mo 1    &lt 5 RET    &kp SPACE  &mo 2    &kp MINUS                &kp EQUAL
             >;
         };
 
