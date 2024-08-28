@@ -110,11 +110,11 @@
 
         layer_5 {
             bindings = <
-&trans     &trans     &trans          &trans            &trans                &trans                                    &trans     &trans                 &trans             &trans           &trans     &trans
-&trans     &trans     &trans          &trans            &trans                &trans                                    &trans     &trans                 &trans             &trans           &trans     &trans
-&kp GRAVE  &kp TILDE  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp NON_US_BACKSLASH                      &kp SLASH  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp MINUS  &kp PIPE
-&trans     &trans     &trans          &trans            &trans                &trans                &kp CAPS    &trans  &trans     &trans                 &trans             &trans           &trans     &trans
-                                      &trans            &trans                &trans                &trans      &trans  &trans     &trans                 &trans
+&trans     &trans     &trans          &trans              &trans                &trans                                    &trans            &trans                 &trans             &trans           &trans     &trans
+&trans     &trans     &trans          &kp LC(LEFT_ARROW)  &kp LS(LG(TAB))       &kp F11                                   &kp LC(UP_ARROW)  &kp RG(TAB)            &kp RC(RIGHT)      &trans           &trans     &trans
+&kp GRAVE  &kp TILDE  &kp LEFT_BRACE  &kp LEFT_BRACKET    &kp LEFT_PARENTHESIS  &kp NON_US_BACKSLASH                      &kp SLASH         &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp MINUS  &kp PIPE
+&trans     &trans     &trans          &trans              &kp LC(LS(TAB))       &trans                &kp CAPS    &trans  &trans            &kp RC(TAB)            &trans             &trans           &trans     &trans
+                                      &trans              &trans                &trans                &trans      &trans  &trans            &trans                 &trans
             >;
         };
     };
