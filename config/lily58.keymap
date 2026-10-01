@@ -87,7 +87,7 @@
 &kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                                           &kp F7     &kp F8             &kp F9           &kp F10           &kp F11            &kp BACKSLASH
 &kp GRAVE   &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                                        &kp CARET  &kp AMPS           &kp KP_MULTIPLY  &kp LPAR          &kp RPAR           &kp TILDE
 &trans      &trans        &trans        &trans        &trans        &trans        &trans                 &kp K_MUTE  &trans     &kp MINUS          &kp KP_PLUS      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE
-                                        &trans        &trans        &trans        &mt RIGHT_ALT ENTER    &trans      &mo 3      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+                                        &tog 6        &trans        &trans        &mt RIGHT_ALT ENTER    &trans      &mo 3      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
             >;
         };
 
@@ -136,6 +136,16 @@
 &none  &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_RIGHT                     &none  &none  &none  &none  &none  &none
 &none  &none           &none           &msc SCRL_DOWN  &none            &none            &none       &none  &none  &none  &none  &none  &none  &none
                                        &trans          &mkp MB3         &mkp MB2         &mkp MB1    &none  &none  &none  &none
+            >;
+        };
+
+        NMS {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                               &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                               &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &kp F   &trans                               &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &kp SPACE    &mt LCMD ENTER  &trans  &trans  &trans
             >;
         };
     };
